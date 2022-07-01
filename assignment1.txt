@@ -1,0 +1,11 @@
+1- start the zsh
+2- make the directory with the command: mkdir git-learn
+3- open the directory: cd git-learn
+4- turn the directory into git repository: git init
+5- create a sample file: touch assignment.txt
+6- check the files in repository: git status
+7- move the untracked file to the staging level: git add assinment.txt
+8- commit the staged file to the local repository: git commit -m "proper 
+message"
+9- check the modifications in a specific file: git blame assignement.txt
+10- check the whole repository alterations: git reflog
